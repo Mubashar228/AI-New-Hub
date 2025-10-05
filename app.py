@@ -8,7 +8,7 @@ st.title("📰 AI News Hub — Latest Daily News")
 # Load combined news CSV
 @st.cache_data
 def load_data():
-    return pd.read_csv("all_news_combined.csv")
+    return pd.read_csv("combined_news.csv")
 
 df = load_data()
 
